@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\16366\\Desktop\\MVCPortfolioProject\\PortfolioProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{10BD787E-F9D7-4A0C-B458-828EF437D45E}|GalatisRestaurant\\GalatisRestaurant.csproj|c:\\users\\16366\\desktop\\mvcportfolioproject\\portfolioproject\\galatisrestaurant\\data\\migrations\\20250417053123_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10BD787E-F9D7-4A0C-B458-828EF437D45E}|GalatisRestaurant\\GalatisRestaurant.csproj|solutionrelative:galatisrestaurant\\data\\migrations\\20250417053123_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20250417053123_Initial.cs",
+              "DocumentMoniker": "C:\\Users\\16366\\Desktop\\MVCPortfolioProject\\PortfolioProject\\GalatisRestaurant\\Data\\Migrations\\20250417053123_Initial.cs",
+              "RelativeDocumentMoniker": "GalatisRestaurant\\Data\\Migrations\\20250417053123_Initial.cs",
+              "ToolTip": "C:\\Users\\16366\\Desktop\\MVCPortfolioProject\\PortfolioProject\\GalatisRestaurant\\Data\\Migrations\\20250417053123_Initial.cs",
+              "RelativeToolTip": "GalatisRestaurant\\Data\\Migrations\\20250417053123_Initial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T05:31:24.262Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
