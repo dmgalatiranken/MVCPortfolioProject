@@ -1,16 +1,16 @@
 ﻿<Project>
   <ItemGroup>
-    <StaticWebAssetEndpoint Include="_content/GalatisRestaurant/css/site.c2tiyv64ts.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"c2tiyv64ts"},{"Name":"integrity","Value":"sha256-pAGv4ietcJNk/EwsQZ5BN9\u002BK4MuNYS2a9wl4Jw\u002Bq9D0="},{"Name":"label","Value":"_content/GalatisRestaurant/css/site.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"362"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022pAGv4ietcJNk/EwsQZ5BN9\u002BK4MuNYS2a9wl4Jw\u002Bq9D0=\u0022"},{"Name":"Last-Modified","Value":"Sun, 13 Apr 2025 20:01:24 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/GalatisRestaurant/css/site.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-pAGv4ietcJNk/EwsQZ5BN9\u002BK4MuNYS2a9wl4Jw\u002Bq9D0="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"362"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022pAGv4ietcJNk/EwsQZ5BN9\u002BK4MuNYS2a9wl4Jw\u002Bq9D0=\u0022"},{"Name":"Last-Modified","Value":"Sun, 13 Apr 2025 20:01:24 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-bZ2177ZPv3vcUv/SZKuXVWVqf6eg4mSi67pYIYr80d4="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"602"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022bZ2177ZPv3vcUv/SZKuXVWVqf6eg4mSi67pYIYr80d4=\u0022"},{"Name":"Last-Modified","Value":"Wed, 23 Apr 2025 23:56:32 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/GalatisRestaurant/css/site.nb3fwlpyb5.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"nb3fwlpyb5"},{"Name":"integrity","Value":"sha256-bZ2177ZPv3vcUv/SZKuXVWVqf6eg4mSi67pYIYr80d4="},{"Name":"label","Value":"_content/GalatisRestaurant/css/site.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"602"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022bZ2177ZPv3vcUv/SZKuXVWVqf6eg4mSi67pYIYr80d4=\u0022"},{"Name":"Last-Modified","Value":"Wed, 23 Apr 2025 23:56:32 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/GalatisRestaurant/favicon.61n19gt1b8.ico">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</AssetFile>
@@ -35,6 +35,78 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"sbecxklqcz"},{"Name":"integrity","Value":"sha256-iDQy3Qj0Dt1dQEysU54njPZY/CVG3uN0Rfmnf\u002BM3Q/w="},{"Name":"label","Value":"_content/GalatisRestaurant/GalatisRestaurant.bundle.scp.css"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1135"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022iDQy3Qj0Dt1dQEysU54njPZY/CVG3uN0Rfmnf\u002BM3Q/w=\u0022"},{"Name":"Last-Modified","Value":"Thu, 17 Apr 2025 04:25:10 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/GalatisRestaurant/images/5493f7e3-9475-4588-8930-669de769f1f4_mushroom-pizza.a1jse7lpun.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\5493f7e3-9475-4588-8930-669de769f1f4_mushroom-pizza.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"a1jse7lpun"},{"Name":"integrity","Value":"sha256-XilQZ6mxExk3vTRfkm\u002BeAUdx5hSsaPH/vw6ZibqIRHc="},{"Name":"label","Value":"_content/GalatisRestaurant/images/5493f7e3-9475-4588-8930-669de769f1f4_mushroom-pizza.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"169790"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022XilQZ6mxExk3vTRfkm\u002BeAUdx5hSsaPH/vw6ZibqIRHc=\u0022"},{"Name":"Last-Modified","Value":"Thu, 24 Apr 2025 01:46:47 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/GalatisRestaurant/images/5493f7e3-9475-4588-8930-669de769f1f4_mushroom-pizza.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\5493f7e3-9475-4588-8930-669de769f1f4_mushroom-pizza.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-XilQZ6mxExk3vTRfkm\u002BeAUdx5hSsaPH/vw6ZibqIRHc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"169790"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022XilQZ6mxExk3vTRfkm\u002BeAUdx5hSsaPH/vw6ZibqIRHc=\u0022"},{"Name":"Last-Modified","Value":"Thu, 24 Apr 2025 01:46:47 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/GalatisRestaurant/images/6d2f38cf-cd69-4dae-bd79-793e9bd7f351_mushroom-pizza.a1jse7lpun.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\6d2f38cf-cd69-4dae-bd79-793e9bd7f351_mushroom-pizza.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"a1jse7lpun"},{"Name":"integrity","Value":"sha256-XilQZ6mxExk3vTRfkm\u002BeAUdx5hSsaPH/vw6ZibqIRHc="},{"Name":"label","Value":"_content/GalatisRestaurant/images/6d2f38cf-cd69-4dae-bd79-793e9bd7f351_mushroom-pizza.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"169790"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022XilQZ6mxExk3vTRfkm\u002BeAUdx5hSsaPH/vw6ZibqIRHc=\u0022"},{"Name":"Last-Modified","Value":"Thu, 24 Apr 2025 02:10:53 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/GalatisRestaurant/images/6d2f38cf-cd69-4dae-bd79-793e9bd7f351_mushroom-pizza.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\6d2f38cf-cd69-4dae-bd79-793e9bd7f351_mushroom-pizza.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-XilQZ6mxExk3vTRfkm\u002BeAUdx5hSsaPH/vw6ZibqIRHc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"169790"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022XilQZ6mxExk3vTRfkm\u002BeAUdx5hSsaPH/vw6ZibqIRHc=\u0022"},{"Name":"Last-Modified","Value":"Thu, 24 Apr 2025 02:10:53 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/GalatisRestaurant/images/7f59ff4c-bc9e-4e44-ac56-d4c4fd2f6614_mushroom-pizza.5ipweew5fc.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\7f59ff4c-bc9e-4e44-ac56-d4c4fd2f6614_mushroom-pizza.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"5ipweew5fc"},{"Name":"integrity","Value":"sha256-47DEQpj8HBSa\u002B/TImW\u002B5JCeuQeRkm5NMpJWZG3hSuFU="},{"Name":"label","Value":"_content/GalatisRestaurant/images/7f59ff4c-bc9e-4e44-ac56-d4c4fd2f6614_mushroom-pizza.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"0"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u002247DEQpj8HBSa\u002B/TImW\u002B5JCeuQeRkm5NMpJWZG3hSuFU=\u0022"},{"Name":"Last-Modified","Value":"Thu, 24 Apr 2025 01:45:26 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/GalatisRestaurant/images/7f59ff4c-bc9e-4e44-ac56-d4c4fd2f6614_mushroom-pizza.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\7f59ff4c-bc9e-4e44-ac56-d4c4fd2f6614_mushroom-pizza.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-47DEQpj8HBSa\u002B/TImW\u002B5JCeuQeRkm5NMpJWZG3hSuFU="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"0"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u002247DEQpj8HBSa\u002B/TImW\u002B5JCeuQeRkm5NMpJWZG3hSuFU=\u0022"},{"Name":"Last-Modified","Value":"Thu, 24 Apr 2025 01:45:26 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/GalatisRestaurant/images/cheese-pizza.99jr503m8b.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\cheese-pizza.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"99jr503m8b"},{"Name":"integrity","Value":"sha256-PW\u002BeO0emvzcoLpIq4GRLvD53\u002BKfXgSlskNil6ch3zzc="},{"Name":"label","Value":"_content/GalatisRestaurant/images/cheese-pizza.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"148802"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022PW\u002BeO0emvzcoLpIq4GRLvD53\u002BKfXgSlskNil6ch3zzc=\u0022"},{"Name":"Last-Modified","Value":"Wed, 23 Apr 2025 23:59:29 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/GalatisRestaurant/images/cheese-pizza.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\cheese-pizza.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-PW\u002BeO0emvzcoLpIq4GRLvD53\u002BKfXgSlskNil6ch3zzc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"148802"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022PW\u002BeO0emvzcoLpIq4GRLvD53\u002BKfXgSlskNil6ch3zzc=\u0022"},{"Name":"Last-Modified","Value":"Wed, 23 Apr 2025 23:59:29 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/GalatisRestaurant/images/pepperoni-pizza.82dhko66ah.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\pepperoni-pizza.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"82dhko66ah"},{"Name":"integrity","Value":"sha256-YDD67hdC3uA1iJhESq2Bv4iyITyaB11/rz3A0sxpkaw="},{"Name":"label","Value":"_content/GalatisRestaurant/images/pepperoni-pizza.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"48796"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022YDD67hdC3uA1iJhESq2Bv4iyITyaB11/rz3A0sxpkaw=\u0022"},{"Name":"Last-Modified","Value":"Thu, 24 Apr 2025 00:01:27 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/GalatisRestaurant/images/pepperoni-pizza.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\pepperoni-pizza.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-YDD67hdC3uA1iJhESq2Bv4iyITyaB11/rz3A0sxpkaw="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"48796"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022YDD67hdC3uA1iJhESq2Bv4iyITyaB11/rz3A0sxpkaw=\u0022"},{"Name":"Last-Modified","Value":"Thu, 24 Apr 2025 00:01:27 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/GalatisRestaurant/images/sausage-pizza.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\sausage-pizza.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-cqS8EneEkIkdaMXntRfonaaQpvbttePk0rg0NI3Lqbc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"62240"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022cqS8EneEkIkdaMXntRfonaaQpvbttePk0rg0NI3Lqbc=\u0022"},{"Name":"Last-Modified","Value":"Thu, 24 Apr 2025 00:00:25 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/GalatisRestaurant/images/sausage-pizza.y0dyeok3yh.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\sausage-pizza.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"y0dyeok3yh"},{"Name":"integrity","Value":"sha256-cqS8EneEkIkdaMXntRfonaaQpvbttePk0rg0NI3Lqbc="},{"Name":"label","Value":"_content/GalatisRestaurant/images/sausage-pizza.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"62240"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022cqS8EneEkIkdaMXntRfonaaQpvbttePk0rg0NI3Lqbc=\u0022"},{"Name":"Last-Modified","Value":"Thu, 24 Apr 2025 00:00:25 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/GalatisRestaurant/js/site.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>

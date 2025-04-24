@@ -262,6 +262,10 @@ namespace GalatisRestaurant.Data.Migrations
                     b.Property<string>("Description")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("ImageUrl")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Name")
                         .HasColumnType("nvarchar(max)");
 
@@ -283,6 +287,7 @@ namespace GalatisRestaurant.Data.Migrations
                             ProductId = 1,
                             CategoryId = 2,
                             Description = "A classic cheese pizza with our homemade sauce and provel cheese.",
+                            ImageUrl = "https://via.placeholder.com/150",
                             Name = "Cheese Pizza",
                             Price = 12.99m,
                             Stock = 98
@@ -292,6 +297,7 @@ namespace GalatisRestaurant.Data.Migrations
                             ProductId = 2,
                             CategoryId = 2,
                             Description = "A classic sausage pizza with our homemade sauce and provel cheese.",
+                            ImageUrl = "https://via.placeholder.com/150",
                             Name = "Sausage Pizza",
                             Price = 13.99m,
                             Stock = 87
@@ -301,6 +307,7 @@ namespace GalatisRestaurant.Data.Migrations
                             ProductId = 3,
                             CategoryId = 2,
                             Description = "A classic pepperoni pizza with our homemade sauce and provel cheese.",
+                            ImageUrl = "https://via.placeholder.com/150",
                             Name = "Pepperoni Pizza",
                             Price = 14.99m,
                             Stock = 91

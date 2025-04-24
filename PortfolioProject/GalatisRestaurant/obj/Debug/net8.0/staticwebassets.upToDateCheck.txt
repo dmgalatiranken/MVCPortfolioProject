@@ -1,5 +1,11 @@
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\images\5493f7e3-9475-4588-8930-669de769f1f4_mushroom-pizza.png
+wwwroot\images\6d2f38cf-cd69-4dae-bd79-793e9bd7f351_mushroom-pizza.png
+wwwroot\images\7f59ff4c-bc9e-4e44-ac56-d4c4fd2f6614_mushroom-pizza.png
+wwwroot\images\cheese-pizza.png
+wwwroot\images\pepperoni-pizza.png
+wwwroot\images\sausage-pizza.png
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
