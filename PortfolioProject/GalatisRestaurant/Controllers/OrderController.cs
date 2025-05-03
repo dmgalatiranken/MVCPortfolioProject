@@ -8,16 +8,30 @@ namespace GalatisRestaurant.Controllers
 {
     public class OrderController : Controller
     {
+        // Accessing context for database interaction
         private readonly ApplicationDbContext _context;
+
+        // Repository for managing interactions with the products table in the database
         private Repository<Product> _products;
+
+        // Repository for managing interactions with the orders table in the database
         private Repository<Order> _orders;
+
+        // Retrieves the UserManager service for user management
         private readonly UserManager<ApplicationUser> _userManager;
 
         public OrderController(ApplicationDbContext context, UserManager<ApplicationUser> userManager)
         {
+            // Initializes context for database interaction
             _context = context;
+
+            // Initializes userManager for user management
             _userManager = userManager;
+
+            // Initializes the products repository to interact with the products table
             _products = new Repository<Product>(context);
+
+            // Initializes the orders repository to interact with the orders table
             _orders = new Repository<Order>(context);
         }
 
@@ -139,13 +153,16 @@ namespace GalatisRestaurant.Controllers
         [HttpGet]
         public async Task<IActionResult> ViewOrders()
         {
+            // Retrieve the current user's ID
             var userId = _userManager.GetUserId(User);
 
+            // Retrieve all orders for the current user
             var userOrders = await _orders.GetAllByIdAsync(userId, "UserId", new QueryOptions<Order>
             {
-                Includes = "OrderItems.Product"
+                Includes = "OrderItems.Product" // Include related OrderItems and Products
             });
 
+            // Pass the user's orders to the view for display
             return View(userOrders);
         }
 

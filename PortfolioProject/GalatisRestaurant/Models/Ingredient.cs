@@ -9,5 +9,8 @@ namespace GalatisRestaurant.Models
 
         [ValidateNever]
         public ICollection<ProductIngredient> ProductIngredients { get; set; } // An ingredient can be used in many products
+
+        //Read-only property for the slug
+        public string Slug => Name!.Replace(' ', '-').ToLower();
     }
 }

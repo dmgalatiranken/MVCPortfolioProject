@@ -260,6 +260,7 @@ namespace GalatisRestaurant.Data.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("Description")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ImageUrl")
@@ -267,6 +268,7 @@ namespace GalatisRestaurant.Data.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Name")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<decimal>("Price")
@@ -384,6 +386,35 @@ namespace GalatisRestaurant.Data.Migrations
                             ProductId = 3,
                             IngredientId = 6
                         });
+                });
+
+            modelBuilder.Entity("GalatisRestaurant.Models.Review", b =>
+                {
+                    b.Property<int>("ReviewId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ReviewId"));
+
+                    b.Property<string>("Comment")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Rating")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("ReviewDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("ReviewId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("Reviews");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
@@ -581,6 +612,17 @@ namespace GalatisRestaurant.Data.Migrations
                     b.Navigation("Product");
                 });
 
+            modelBuilder.Entity("GalatisRestaurant.Models.Review", b =>
+                {
+                    b.HasOne("GalatisRestaurant.Models.ApplicationUser", "User")
+                        .WithMany("Reviews")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
                 {
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", null)
@@ -635,6 +677,8 @@ namespace GalatisRestaurant.Data.Migrations
             modelBuilder.Entity("GalatisRestaurant.Models.ApplicationUser", b =>
                 {
                     b.Navigation("Orders");
+
+                    b.Navigation("Reviews");
                 });
 
             modelBuilder.Entity("GalatisRestaurant.Models.Category", b =>

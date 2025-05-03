@@ -12,6 +12,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
 builder.Services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = true)
+    .AddRoles<IdentityRole>()
     .AddEntityFrameworkStores<ApplicationDbContext>();
 builder.Services.AddControllersWithViews();
 
@@ -19,6 +20,12 @@ builder.Services.AddMemoryCache();
 builder.Services.AddSession(options =>
 {
     options.IdleTimeout = TimeSpan.FromMinutes(30); // Sets the session timeout to 30 minutes
+});
+
+builder.Services.AddRouting(options =>
+{
+    options.LowercaseUrls = true;
+    options.AppendTrailingSlash = true;
 });
 
 var app = builder.Build();
@@ -40,13 +47,24 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+app.UseAuthentication();
 app.UseAuthorization();
+
+var scopeFactory = app.Services.GetRequiredService<IServiceScopeFactory>();
+using (var scope = scopeFactory.CreateScope())
+{
+    await IdentityConfig.CreateAdminUserAsync(scope.ServiceProvider);
+}
 
 app.UseSession();
 
 app.MapControllerRoute(
+    name: "areas",
+    pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}/{slug?}");
+
+app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Ingredient}/{action=Index}/{id?}");
+    pattern: "{controller=Ingredient}/{action=Index}/{id?}/{slug?}");
 app.MapRazorPages();
 
 app.Run();

@@ -18,6 +18,7 @@ public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     public DbSet<OrderItem> OrderItems { get; set; }
     public DbSet<Ingredient> Ingredients { get; set; }
     public DbSet<ProductIngredient> ProductIngredients { get; set; } // Join table
+    public DbSet<Review> Reviews { get; set; }
 
     // Fluent API Configuration
     protected override void OnModelCreating(ModelBuilder modelBuilder)

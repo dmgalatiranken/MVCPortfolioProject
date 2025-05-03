@@ -1,0 +1,45 @@
+﻿@model IEnumerable<Review>
+@{
+    ViewBag.Title = "Reviews";
+}
+
+
+@if (TempData["successmessage"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["successmessage"]
+    </div>
+}
+
+<h1 class="text-center">Reviews</h1>
+
+<a asp-controller="Review" asp-action="AddReview" class="btn btn-primary">Add Review</a>
+
+@if (Model.Count() == 0)
+{
+    <h4 class="text-center">No reviews found. Create one using the button above!</h4>
+}
+else
+{
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Email</th>
+                <th>Rating</th>
+                <th>Comment</th>
+                <th>Review Date</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var review in Model)
+            {
+                <tr>
+                    <td>@review.User.UserName</td>
+                    <td>@review.Rating</td>
+                    <td>@review.Comment</td>
+                    <td>@review.ReviewDate.ToString("MM/dd/yyyy")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

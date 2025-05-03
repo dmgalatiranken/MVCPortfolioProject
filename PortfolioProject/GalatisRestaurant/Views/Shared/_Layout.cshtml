@@ -37,6 +37,17 @@
                             <a class="nav-link @(currentArea == "" && currentController == "Order" && currentAction == "Create" ? "active" : "")"
                                asp-area="" asp-controller="Order" asp-action="Create">Create Order</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link @(currentArea == "" && currentController == "Review" && currentAction == "Index" ? "active" : "")"
+                               asp-area="" asp-controller="Review" asp-action="Index">Reviews</a>
+                        </li>
+                        @if (User.IsInRole("Admin"))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link bg-warning @(currentArea == "Admin" && currentController == "User" && currentAction == "Index" ? "active" : "")"
+                                   asp-area="Admin" asp-controller="User" asp-action="Index">Manage Users <i class="bi bi-people-fill"></i></a>
+                            </li>
+                        }
                     </ul>
                     <partial name="_LoginPartial" />
                 </div>
@@ -50,8 +61,8 @@
     </div>
 
     <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2025 - GalatisRestaurant - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        <div class="container text-center">
+            &copy; 2025 - GalatisRestaurant
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>

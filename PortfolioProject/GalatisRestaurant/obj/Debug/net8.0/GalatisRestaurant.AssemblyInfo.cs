@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GalatisRestaurant")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d4c12abcedabeee25c43e493d332a9d86aa8d2a9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+183c05fc307168e3c6cfe291d8912bd912cd9c24")]
 [assembly: System.Reflection.AssemblyProductAttribute("GalatisRestaurant")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GalatisRestaurant")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
